@@ -95,6 +95,92 @@ select:-webkit-autofill:focus {
   flex-grow: 1;
 }
 
+
+/* SITE-HEADER */
+.site-header {
+  margin: 0;
+  padding-top: 60px;
+  padding-bottom: 125px;
+}
+
+.sitenav {
+  display: flex;
+  align-items: center;  
+}
+
+.site-logo__black {
+  margin: 0;
+  padding: 0;
+  flex-grow: 1;
+}
+
+.site-logo {
+  display: block;
+  width: 149px;
+  height: 25px;
+  object-fit: cover;
+}
+
+.site-logo:hover {
+  opacity: 0.8;
+}
+
+.site-logo:active {
+  opacity: 0.6;
+}
+
+.sitenav__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.sitenav__item {
+  margin-right: 48px;
+  list-style: none;
+}
+
+.sitenav__link {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  line-height: 17px;
+  letter-spacing: 1.5px;
+  color: var(--text-color-dark);
+  text-decoration: none;
+}
+
+.sitenav__link:hover {
+  opacity: 0.8;
+}
+
+.sitenav__link:active {
+  opacity: 0.6;
+}
+
+.sitenav__button {
+  margin: 0;
+  padding: 0;
+  padding: 12px 33px;
+  border-radius: 5px;
+  font-size: 13px;
+  line-height: 17px;
+  letter-spacing: 1.5px;
+  background-color: var(--accent-color-red);
+  color: #fff;
+  text-decoration: none;
+}
+
+.sitenav__button:hover {
+  opacity: 0.8;
+}
+
+.sitenav__button:active {
+  opacity: 0.6;
+}
+
+
+
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (   min--moz-device-pixel-ratio: 2),
